@@ -16,6 +16,8 @@ ActionController::Routing::Routes.draw do |map|
                                      :purge     => :delete } 
 
   map.resource :session
+  
+  map.root :controller => "home", :action => "index"
 
   # The priority is based upon order of creation: first created -> highest priority.
 

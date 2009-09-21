@@ -1,0 +1,22 @@
+div#yui-main>div.yui-b>div.yui-g>div.yui-u.first {
+	width: 487px;
+}
+
+div.yui-g {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 974px;
+}
+
+div.yui-g p {
+	margin-bottom: 15px;
+}
+
+div.yui-g ol li {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+
+div.yui-u.first {
+	
+}

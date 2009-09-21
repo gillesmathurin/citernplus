@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Controleur: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'reset-fonts-grids', 'base' %>
+  <%= javascript_include_tag :defaults, :cache => true %>
+  
+</head>
+<body>
+    <div id="doc4" class="yui-t5">
+        <div id="preload-image">                    
+        </div>
+        <div id="hd">
+            <div id="hd_img">
+                <%= image_tag("bg-bannieredroite.jpg") %>
+            </div>
+            <div id="name">
+                
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><%= link_to "Accueil", "/" %></li>
+                    <li><%= link_to "Dossier Archi" %></li>
+                    <li><%= link_to "Fiches pratiques", "" %></li>
+                    <li><%= link_to "Contacts", "" %></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="bd">
+            <%= yield %>
+        </div>
+        
+        <div id="ft">
+            GMWebAgency ©2007-<%= Date.today.year %> - Tous droits réservés<br/>
+            Siret : 4391422740026 - APE : 6311Z -
+            Tel : 0690 911 748<br/>
+            Conception : <%= link_to "GMWebAgency", "http://www.gmwebagency.com" %>
+        </div>
+    </div>
+
+</body>
+</html>
