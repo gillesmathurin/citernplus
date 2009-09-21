@@ -1,5 +1,10 @@
-div#yui-main>div.yui-b>div.yui-g>div.yui-u.first {
-	width: 487px;
+div.yui-b h1.entete-accueil {
+	font-size: 189%;
+	font-weight: bold;
+	color: navy;
+	text-align: center;
+	width: 974px;
+	margin-bottom: 10px;
 }
 
 div.yui-g {
