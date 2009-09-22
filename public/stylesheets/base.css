@@ -1,7 +1,7 @@
 div.yui-b h1.entete-accueil {
-	font-size: 189%;
+	font-size: 250%;
 	font-weight: bold;
-	color: navy;
+	color: #142b92;
 	text-align: center;
 	width: 974px;
 	margin-bottom: 10px;
@@ -24,4 +24,31 @@ div.yui-g ol li {
 
 div.yui-u.first {
 	
+}
+
+div#tableau-conso {
+	background-color: #ffda36;
+	padding: 10px;
+}
+
+div#tableau-conso table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+div#tableau-conso table tr {
+	border: 1px solid gray;
+}
+
+div#tableau-conso table tr td {
+	padding: 2px 2px 2px 15px;
+}
+
+div#tableau-conso table tr td.pcent {
+	text-align: right;
+	padding-right: 15px;
+}
+
+div#tableau-conso p {
+	text-align: center;
 }
