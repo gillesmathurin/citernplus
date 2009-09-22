@@ -126,6 +126,27 @@ div.yui-g.accueil {
 	width: 964px;
 }
 
+div.yui-g {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+div.yui-g h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 167%;
+	margin-bottom: 10px;
+	color: blue;
+}
+
+div.yui-g h2 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #46a8ed;
+	font-size: 116%;
+}
+
 div.yui-g p {
 	margin-bottom: 15px;
 	margin-right: 10px;
@@ -178,6 +199,15 @@ div#tableau-conso h2 {
 div.yui-g ol li span {
 	font-weight: bold;
 	color: red;
+}
+
+div.yui-b.sidebar {
+	text-align: center;
+}
+
+div.yui-b.sidebar h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 
