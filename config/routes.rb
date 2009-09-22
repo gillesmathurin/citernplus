@@ -17,6 +17,10 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resource :session
   
+  map.dossier_archi '/dossier_architecture', :controller => :home, :action => 'dossier_archi'
+  map.tarif '/tarif', :controller => :home, :action => 'tarif'
+  map.contact '/contact', :controller => :home, :action => 'contact'
+  
   map.root :controller => "home", :action => "index"
 
   # The priority is based upon order of creation: first created -> highest priority.
