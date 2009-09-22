@@ -33,6 +33,34 @@ background-position: -1000px -1000px;
 	width: 621px;
 }
 
+#hd #hd_img img {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#hd #hd_img p.sous-titre {
+	display: block;
+	width: 60%;
+	color: white;
+	font-weight: bold;
+	font-size: 197%;
+	font-style: italic;
+	margin-left: 400px;
+	margin-top: -10px;
+}
+
+#hd #hd_img p.slogan {
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 250%;
+	line-height: 150%;
+	margin-top: 20px;
+}
+
 #hd #menu ul  {
 	display: block;
 	position: absolute;
@@ -100,6 +128,7 @@ div.yui-g {
 
 div.yui-g p {
 	margin-bottom: 15px;
+	margin-right: 10px;
 }
 
 div.yui-g ol li {
@@ -114,6 +143,7 @@ div.yui-u.first {
 div#tableau-conso {
 	background-color: #fef2b7;
 	padding: 10px;
+	margin-right: 10px;
 }
 
 div#tableau-conso table {
@@ -143,6 +173,11 @@ div#tableau-conso h2 {
 	font-size: 146.5%;
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+div.yui-g ol li span {
+	font-weight: bold;
+	color: red;
 }
 
 
