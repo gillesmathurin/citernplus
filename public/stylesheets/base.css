@@ -1,16 +1,101 @@
+body {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: black;
+}
+
+#doc4.yui-t5 {
+	border: 1px solid gray;
+	line-height: 131%;
+}
+
+/* @group header */
+
+div#preload-image {
+background-image: url(../images/tab-on.png);
+background-repeat: no-repeat;
+background-position: -1000px -1000px;	
+}
+
+div#preload-image2 {
+background-image: url(../images/tabon-archi.png);
+background-repeat: no-repeat;
+background-position: -1000px -1000px;	
+}
+
+#hd {
+	border-bottom: 2px inset #82d1ac;
+	border-right: 2px solid #82d1ac;
+}
+
+#hd #hd_img {
+	background: url(../images/bg-bannieredroite.jpg) no-repeat left top;
+	height: 297px;
+	width: 621px;
+}
+
+#hd #menu ul  {
+	display: block;
+	position: absolute;
+	top: 260px;
+	color: white;
+	text-align: left;
+	left: 50px;
+}
+
+#hd #menu ul li {
+	display: inline;
+}
+
+#hd #menu ul li a {
+	width: 122px;
+	height: 42px;
+	background-image: url(../images/tab-off.png);
+	display: inline-block;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	font-size: 116%;
+}
+
+#hd #menu ul li a:hover {
+	background: url(../images/tab-on.png) no-repeat;
+}
+
+#hd #menu ul li.archi a {
+	background: url(../images/taboff-archi.png) no-repeat;
+	width: 182px;
+}
+
+#hd #menu ul li.archi a:hover {
+	background-image: url(../images/tabon-archi.png);
+}
+
+div#hd div#hd_img {
+	float: left;
+}
+
+
+
+/* @end */
+
+/* @group bd */
+
 div.yui-b h1.entete-accueil {
 	font-size: 250%;
 	font-weight: bold;
 	color: #142b92;
 	text-align: center;
 	width: 974px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 div.yui-g {
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 974px;
+	width: 964px;
 }
 
 div.yui-g p {
@@ -27,7 +112,7 @@ div.yui-u.first {
 }
 
 div#tableau-conso {
-	background-color: #ffda36;
+	background-color: #fef2b7;
 	padding: 10px;
 }
 
@@ -51,4 +136,31 @@ div#tableau-conso table tr td.pcent {
 
 div#tableau-conso p {
 	text-align: center;
+	margin-top: 10px;
 }
+
+div#tableau-conso h2 {
+	font-size: 146.5%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+
+/* @end */
+
+/* @group footer */
+
+#ft {
+	text-align: center;
+	padding: 15px;
+	background-color: #2e83a8;
+	color: white;
+	margin-top: 20px;
+	line-height: 123.1%;
+	font-size: 85%;
+}
+
+
+
+/* @end */

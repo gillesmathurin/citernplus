@@ -7,24 +7,31 @@
   <title>Controleur: <%= controller.action_name %></title>
   <%= stylesheet_link_tag 'reset-fonts-grids', 'base' %>
   <%= javascript_include_tag :defaults, :cache => true %>
-  
 </head>
 <body>
     <div id="doc4" class="yui-t5">
         <div id="preload-image">                    
         </div>
+        <div id="preload-image2">            
+        </div>
         <div id="hd">
             <div id="hd_img">
-                <%= image_tag("bg-bannieredroite.jpg") %>
+                <%# image_tag("bg-bannieredroite.jpg") %>
             </div>
-            <div id="name">
-                
+            <div id="animation">
+                <script type="text/javascript" src="bzLoader.js"></script>
+                <noscript>
+                <p style="background-color:#ffffff;color:#000000;padding:1em;">Votre navigateur ne supporte pas JavaScript ou vous avez
+                désactivé JavaScript.</p>
+                </noscript>
+                <div id="SWBZA33F97A850864977AAE5"></div>
+                <div id="LKBZA33F97A850864977AAE5"></div>
             </div>
             <div id="menu">
                 <ul>
                     <li><%= link_to "Accueil", "/" %></li>
-                    <li><%= link_to "Dossier Archi" %></li>
-                    <li><%= link_to "Fiches pratiques", "" %></li>
+                    <li class="archi"><%= link_to "Dossier Architecture" %></li>
+                    <li><%= link_to "Tarifs", "" %></li>
                     <li><%= link_to "Contacts", "" %></li>
                     <li></li>
                 </ul>
