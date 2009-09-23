@@ -58,7 +58,6 @@ background-position: -1000px -1000px;
 	text-align: center;
 	font-size: 250%;
 	line-height: 150%;
-	margin-top: 20px;
 }
 
 #hd #menu ul  {
@@ -214,6 +213,43 @@ div.yui-b.sidebar p {
 	background-color: #d7f1ff;
 	padding: 15px;
 	border: 2px double olive;
+}
+
+div.yui-g.accueil table.tarif {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+
+div.yui-g.accueil table.tarif tr th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 116%;
+	color: white;
+	padding: 5px;
+	background-color: #3184c1;
+	border: 1px solid navy;
+}
+
+div.yui-g.accueil table.tarif tr td {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #d6edff;
+}
+
+div.yui-g.accueil table.tarif tr td.prix-produit {
+	color: blue;
+	background-color: #fefdd2;
+}
+
+div.yui-g.accueil table.tarif tr td.commande {
+	color: red;
+	background-color: #fefdd2;
+}
+
+div.yui-g.accueil table.tarif tr td.prix-final {
+	color: teal;
+	background-color: #fefdd2;
 }
 
 
