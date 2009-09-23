@@ -83,7 +83,7 @@ background-position: -1000px -1000px;
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
-	font-size: 116%;
+	font-size: 110%;
 }
 
 #hd #menu ul li a:hover {
@@ -250,6 +250,10 @@ div.yui-g.accueil table.tarif tr td.commande {
 div.yui-g.accueil table.tarif tr td.prix-final {
 	color: teal;
 	background-color: #fefdd2;
+}
+
+div.yui-g.accueil ul.pieces {
+	margin-left: 25px;
 }
 
 
