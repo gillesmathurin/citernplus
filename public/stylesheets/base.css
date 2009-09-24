@@ -299,10 +299,14 @@ div.yui-g.contacts {
 
 #ft a {
 	color: white;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 #ft a:hover {
 	color: yellow;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 
