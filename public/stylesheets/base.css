@@ -284,6 +284,18 @@ div.yui-g p.dossier span {
 	font-size: 85%;
 }
 
+#ft p {
+	margin-bottom: 5px;
+}
+
+#ft a {
+	color: white;
+}
+
+#ft a:hover {
+	color: yellow;
+}
+
 
 
 /* @end */

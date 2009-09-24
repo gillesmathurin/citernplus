@@ -46,9 +46,13 @@
         </div>
         
         <div id="ft">
-            GMWebAgency ©2007-<%= Date.today.year %> - Tous droits réservés<br/>
-            Siret : 4391422740026 - APE : 6311Z -
-            Tel : 0690 911 748 - 0590 898 237<br/>
+            <p>
+                <%= link_to "Accueil", "/" %> | <%= link_to "Dossier Architectur", dossier_archi_path %>
+                | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
+            </p>
+            <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés<br/>
+            Tel/Fax : 0590 23 42 10<br/></p>
+
             Conception : <%= link_to "GMWebAgency", "http://www.gmwebagency.com" %>
         </div>
     </div>
