@@ -113,6 +113,11 @@ div#hd div#hd_img {
 
 /* @group bd */
 
+div#yui-main {
+	min-height: 510px;
+	height: 100%;
+}
+
 div.yui-b h1.entete-accueil {
 	font-size: 250%;
 	font-weight: bold;
@@ -265,6 +270,10 @@ div.yui-g.accueil ul.pieces {
 div.yui-g p.dossier span {
 	color: red;
 	font-variant: small-caps;
+	font-size: 123%;
+}
+
+div.yui-g.contacts {
 	font-size: 123%;
 }
 
