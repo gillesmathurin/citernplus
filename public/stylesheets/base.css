@@ -217,16 +217,17 @@ div.yui-b.sidebar h3 {
 div.yui-b.sidebar p {
 	background-color: #d7f1ff;
 	padding: 15px;
-	border: 2px double olive;
+	border: 2px double #82d1ac;
 }
 
-div.yui-g.accueil table.tarif {
+div.yui-g table.tarif {
 	margin-right: auto;
 	margin-left: auto;
-	width: 90%;
+	width: 100%;
+	font-size: 93%;
 }
 
-div.yui-g.accueil table.tarif tr th {
+div.yui-g table.tarif tr th {
 	text-align: center;
 	font-weight: bold;
 	font-size: 116%;
@@ -236,29 +237,35 @@ div.yui-g.accueil table.tarif tr th {
 	border: 1px solid navy;
 }
 
-div.yui-g.accueil table.tarif tr td {
+div.yui-g table.tarif tr td {
 	text-align: center;
 	padding: 5px;
 	border: 1px solid #d6edff;
 }
 
-div.yui-g.accueil table.tarif tr td.prix-produit {
+div.yui-g table.tarif tr td.prix-produit {
 	color: blue;
 	background-color: #fefdd2;
 }
 
-div.yui-g.accueil table.tarif tr td.commande {
+div.yui-g table.tarif tr td.commande {
 	color: red;
 	background-color: #fefdd2;
 }
 
-div.yui-g.accueil table.tarif tr td.prix-final {
+div.yui-g table.tarif tr td.prix-final {
 	color: teal;
 	background-color: #fefdd2;
 }
 
 div.yui-g.accueil ul.pieces {
 	margin-left: 25px;
+}
+
+div.yui-g p.dossier span {
+	color: red;
+	font-variant: small-caps;
+	font-size: 123%;
 }
 
 
