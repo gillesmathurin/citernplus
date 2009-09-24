@@ -1,4 +1,6 @@
 class HomeController < ApplicationController
+  caches_page :index, :dossier_archi, :tarif, :contact
+  
   def index
   end
 
