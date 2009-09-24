@@ -25,6 +25,7 @@ background-position: -1000px -1000px;
 #hd {
 	border-bottom: 2px inset #82d1ac;
 	border-right: 2px solid #82d1ac;
+	height: 300px;
 }
 
 #hd #hd_img {
@@ -60,13 +61,16 @@ background-position: -1000px -1000px;
 	line-height: 150%;
 }
 
-#hd #menu ul  {
+#hd #menu {
+	position: relative;
 	display: block;
-	position: absolute;
-	top: 260px;
+	left: 25px;
+	top: -40px;
+}
+
+#hd #menu ul  {
 	color: white;
 	text-align: left;
-	left: 50px;
 }
 
 #hd #menu ul li {
@@ -149,6 +153,7 @@ div.yui-g h2 {
 div.yui-g p {
 	margin-bottom: 15px;
 	margin-right: 10px;
+	margin-top: 10px;
 }
 
 div.yui-g ol li {
