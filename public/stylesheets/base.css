@@ -272,6 +272,8 @@ div.yui-b.sidebar {
 div.yui-b.sidebar h3 {
 	font-weight: bold;
 	margin-bottom: 10px;
+	font-size: 120%;
+	color: #00b700;
 }
 
 div.yui-b.sidebar p {
