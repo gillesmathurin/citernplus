@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  caches_page :index, :presentationn, :tarif, :contact
+  caches_page :index, :presentation, :tarif, :contact
   
   
   def index
