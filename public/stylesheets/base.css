@@ -204,6 +204,12 @@ div.yui-g h2 {
 	font-size: 116%;
 }
 
+div.yui-g h2.promo {
+	text-align: center;
+	color: #ff363f;
+	font-size: 150%;
+}
+
 div.yui-g p {
 	margin-bottom: 15px;
 	margin-right: 10px;
@@ -279,7 +285,7 @@ div.yui-g table.tarif {
 	margin-left: auto;
 	width: 100%;
 	font-weight: bold;
-	font-size: 93%;
+	font-size: 90%;
 }
 
 div.yui-g table.tarif tr th {
@@ -301,10 +307,11 @@ div.yui-g table.tarif tr td {
 div.yui-g table.tarif tr td.prix-produit {
 	color: blue;
 	background-color: #fefdd2;
+	width: 13%;
 }
 
 div.yui-g table.tarif tr td.aide {
-	width: 10%;
+	width: 13%;
 }
 
 div.yui-g table.tarif tr td.commande {
@@ -338,6 +345,12 @@ div.yui-g p.dossier span {
 
 div.yui-g.contacts {
 	font-size: 123%;
+}
+
+div.yui-g span.produit {
+	color: #08b704;
+	font-weight: bold;
+	font-size: 130%;
 }
 
 
