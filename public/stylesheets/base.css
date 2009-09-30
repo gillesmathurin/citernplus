@@ -345,12 +345,13 @@ div.yui-g p.dossier span {
 
 div.yui-g.contacts {
 	font-size: 123%;
+	line-height: 25px;
 }
 
 div.yui-g span.produit {
 	color: #08b704;
 	font-weight: bold;
-	font-size: 130%;
+	font-size: 150%;
 }
 
 
