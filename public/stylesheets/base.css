@@ -229,6 +229,7 @@ div.yui-g table.tarif {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
+	font-weight: bold;
 	font-size: 93%;
 }
 
@@ -253,14 +254,27 @@ div.yui-g table.tarif tr td.prix-produit {
 	background-color: #fefdd2;
 }
 
+div.yui-g table.tarif tr td.aide {
+	width: 10%;
+}
+
 div.yui-g table.tarif tr td.commande {
 	color: red;
 	background-color: #fefdd2;
+	width: 15%;
 }
 
 div.yui-g table.tarif tr td.prix-final {
 	color: teal;
 	background-color: #fefdd2;
+	width: 25%;
+}
+
+p.conditions {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	color: teal;
 }
 
 div.yui-g.accueil ul.pieces {
