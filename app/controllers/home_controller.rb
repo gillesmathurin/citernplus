@@ -1,7 +1,9 @@
 class HomeController < ApplicationController
-  caches_page :index, :dossier_archi, :tarif, :contact
+  caches_page :index, :presentationn, :tarif, :contact
+  
   
   def index
+    render :action => "index", :layout => "accueil"
   end
 
   def presentation
