@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   def index
   end
 
-  def dossier_archi
+  def presentation
   end
 
   def tarif

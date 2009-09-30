@@ -33,8 +33,8 @@
             <div id="menu">
                 <ul>
                     <li><%= link_to "Accueil", "/" %></li>
-                    <li class="archi"><%= link_to "Dossier Architecture", dossier_archi_path %></li>
-                    <li><%= link_to "Tarifs", tarif_path %></li>
+                    <li><%= link_to "Présentation", presentation_path %></li>
+                    <li><%= link_to "Promo/Tarifs", tarif_path %></li>
                     <li><%= link_to "Contacts", contact_path %></li>
                     <li></li>
                 </ul>
@@ -47,7 +47,7 @@
         
         <div id="ft">
             <p>
-                <%= link_to "Accueil", "/" %> | <%= link_to "Dossier Architecture", dossier_archi_path %>
+                <%= link_to "Accueil", "/" %> | <%= link_to "Presentation", presentation_path %>
                 | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
             </p>
             <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés<br/>
