@@ -19,6 +19,18 @@
                     <th>Crédit d'impôt 25%</th>
                     <th>Prix de Revient final (toutes aides déduites)</th>
                 </tr>
+								<% unless @produits.empty? %>
+								<% @produits.each do |produit| %>	
+								<tr>
+									<td><%=h produit.nom %></td>
+									<td><%= h produit.prix_base %> €</td>
+									<td><%= h produit.aide_region %> €</td>
+									<td><%= h produit.apport_client %> €</td>
+									<td><%= h produit.credit_impot %> €</td>
+									<td><%= h produit.prix_revient %> €</td>
+								</tr>
+								<% end %>
+								<% else %>
                 <tr>
                     <td>3 300L H.SOL COMPLET + SURPRESSEUR EN 1717, INSTALLE</td>
                     <td class="prix-produit">4399 €</td>
@@ -27,6 +39,7 @@
                     <td>±650 €</td>
                     <td class="prix-final">±1949.50 €</td>
                 </tr>
+								<% end %>
             </table>
             <p class="conditions">
                 Offre valable pour pose kit citerne ayant toutes les connections disponibles près de la citerne plus plate-forme existante.

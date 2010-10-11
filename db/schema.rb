@@ -9,12 +9,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101011135120) do
+ActiveRecord::Schema.define(:version => 20101011150003) do
 
   create_table "annonces", :force => true do |t|
     t.text     "message"
     t.datetime "starts_at"
     t.datetime "ends_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "produits", :force => true do |t|
+    t.string   "nom"
+    t.string   "prix_base",     :default => "0,00"
+    t.string   "aide_region",   :default => "0,00"
+    t.string   "apport_client", :default => "0,00"
+    t.string   "credit_impot",  :default => "0,00"
+    t.string   "prix_revient",  :default => "0,00"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

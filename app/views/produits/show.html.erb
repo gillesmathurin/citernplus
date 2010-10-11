@@ -1,0 +1,40 @@
+<div id="yui-main">
+	<div class="yui-b">
+		<div class="yui-g">
+			<p>
+			  <b>Nom:</b>
+			  <%=h @produit.nom %>
+			</p>
+
+			<p>
+			  <b>Prix base:</b>
+			  <%=h @produit.prix_base %>
+			</p>
+
+			<p>
+			  <b>Aide region:</b>
+			  <%=h @produit.aide_region %>
+			</p>
+
+			<p>
+			  <b>Apport client:</b>
+			  <%=h @produit.apport_client %>
+			</p>
+
+			<p>
+			  <b>Credit impot:</b>
+			  <%=h @produit.credit_impot %>
+			</p>
+
+			<p>
+			  <b>Prix revient:</b>
+			  <%=h @produit.prix_revient %>
+			</p>
+
+
+			<%= link_to 'Modifier', edit_produit_path(@produit) %> |
+			<%= link_to 'Retour', produits_path %>
+		</div>
+	</div>
+</div>
+

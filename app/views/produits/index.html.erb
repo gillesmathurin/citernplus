@@ -1,0 +1,37 @@
+<div id="yui-main">
+	<div class="yui-b">
+		<div class="yui-g">
+			<h1>Listing produits</h1>
+
+			<table>
+			  <tr>
+			    <th>Nom</th>
+			    <th>Prix base</th>
+			    <th>Aide region</th>
+			    <th>Apport client</th>
+			    <th>Credit impot</th>
+			    <th>Prix revient</th>
+			  </tr>
+
+			<% @produits.each do |produit| %>
+			  <tr>
+			    <td><%=h produit.nom %></td>
+			    <td><%=h produit.prix_base %></td>
+			    <td><%=h produit.aide_region %></td>
+			    <td><%=h produit.apport_client %></td>
+			    <td><%=h produit.credit_impot %></td>
+			    <td><%=h produit.prix_revient %></td>
+			    <td><%= link_to 'Voir', produit %></td>
+			    <td><%= link_to 'Modifier', edit_produit_path(produit) %></td>
+			    <td><%= link_to 'Supprimer', produit, :confirm => 'En êtes vous sur?', :method => :delete %></td>
+			  </tr>
+			<% end %>
+			</table>
+
+			<br />
+
+			<%= link_to 'Nouveau produit', new_produit_path %>
+		</div>
+	</div>
+</div>
+

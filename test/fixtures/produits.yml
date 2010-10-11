@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nom: MyString
+  prix_base: MyString
+  aide_region: MyString
+  apport_client: MyString
+  credit_impot: MyString
+  prix_revient: MyString
+
+two:
+  nom: MyString
+  prix_base: MyString
+  aide_region: MyString
+  apport_client: MyString
+  credit_impot: MyString
+  prix_revient: MyString

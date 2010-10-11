@@ -10,6 +10,7 @@ class HomeController < ApplicationController
   end
 
   def tarif
+    @produits = Produit.all
   end
 
   def contact

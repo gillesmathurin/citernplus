@@ -1,0 +1,42 @@
+<div id="yui-main">
+	<div class="yui-b">
+		<div class="yui-g">
+			
+			<h1>Nouveau produit</h1>
+
+			<% form_for(@produit) do |f| %>
+			  <%= f.error_messages %>
+
+			  <p>
+			    <%= f.label :nom %><br />
+			    <%= f.text_field :nom %>
+			  </p>
+			  <p>
+			    <%= f.label :prix_base %><br />
+			    <%= f.text_field :prix_base %>
+			  </p>
+			  <p>
+			    <%= f.label :aide_region %><br />
+			    <%= f.text_field :aide_region %>
+			  </p>
+			  <p>
+			    <%= f.label :apport_client %><br />
+			    <%= f.text_field :apport_client %>
+			  </p>
+			  <p>
+			    <%= f.label :credit_impot %><br />
+			    <%= f.text_field :credit_impot %>
+			  </p>
+			  <p>
+			    <%= f.label :prix_revient %><br />
+			    <%= f.text_field :prix_revient %>
+			  </p>
+			  <p>
+			    <%= f.submit 'Enregistrer' %>
+			  </p>
+			<% end %>
+
+			<%= link_to 'Retour', produits_path %>
+		</div>
+	</div>
+</div>
