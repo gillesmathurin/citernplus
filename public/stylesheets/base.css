@@ -277,6 +277,17 @@ div.yui-g.contacts {
 	font-size: 123%;
 }
 
+div#annonces {
+	font-size: 1.2em;
+	color: teal;
+	background-color: white;
+	display: block;
+	padding: 5px;
+	border: 2px solid yellow;
+	margin: 20px auto 10px;
+	width: 80%;
+	text-align: center;}
+
 
 
 /* @end */
