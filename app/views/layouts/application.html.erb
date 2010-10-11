@@ -61,7 +61,9 @@
             <p>
                 <%= link_to "Accueil", "/" %> | <%= link_to "Presentation", presentation_path %>
                 | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
-								
+								<% if logged_in? %>
+									| <%= link_to "Administration", administration_index_path() %>
+								<% end %>
             </p>
 						<p>
 							<%= render :partial => "users/user_bar" %>
