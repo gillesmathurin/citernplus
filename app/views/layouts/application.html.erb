@@ -61,8 +61,11 @@
             <p>
                 <%= link_to "Accueil", "/" %> | <%= link_to "Presentation", presentation_path %>
                 | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
-								| <%= link_to "Admin", login_path %>
+								
             </p>
+						<p>
+							<%= render :partial => "users/user_bar" %>
+						</p>
             <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés
             Tel/Fax : 0590 23 42 10
             <%= mail_to "lek.sarl@wanadoo.fr", "Email", :encode => "hex" %></p>

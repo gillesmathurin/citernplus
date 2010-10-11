@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101011120746) do
+ActiveRecord::Schema.define(:version => 20101011135120) do
 
   create_table "annonces", :force => true do |t|
     t.text     "message"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20101011120746) do
     t.datetime "activated_at"
     t.string   "state",                                    :default => "passive"
     t.datetime "deleted_at"
+    t.string   "password"
   end
 
   add_index "users", ["login"], :name => "index_users_on_login", :unique => true
