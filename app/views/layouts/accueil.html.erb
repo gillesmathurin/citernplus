@@ -33,14 +33,23 @@
         </div>
         
         <div id="bd">
+					<% unless annonces_courantes.empty?  %>
+						<div id="annonces">
+							<% for annonce in annonces_courantes %>
+								<p><%= h annonce.message %></p>
+							<% end %>
+							<p><%= link_to_remote "Masquer", :url => masquerannonce_url() %></p>
+						</div>
+					<% end %>
             
-            <%= yield %>
+          <%= yield %>
         </div>
         
         <div id="ft">
             <p>
                 <%= link_to "Accueil", "/" %> | <%= link_to "Presentation", presentation_path %>
-                | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
+                | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %> |
+ 								<%= link_to "Admin", login_path %>
             </p>
             <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés 
             Tel/Fax : 0590 23 42 10
