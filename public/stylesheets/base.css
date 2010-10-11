@@ -29,7 +29,7 @@ background-position: -1000px -1000px;
 }
 
 #hd #hd_img {
-	background: url(../images/bg-bannieredroite.jpg) no-repeat left top;
+	background: url(../images/bg-bannieredroite2.jpg) no-repeat left top;
 	height: 297px;
 	width: 621px;
 }
@@ -103,6 +103,55 @@ background-position: -1000px -1000px;
 	background-image: url(../images/tabon-archi.png);
 }
 
+#hd-accueil #menu {
+	position: relative;
+	display: block;
+	text-align: center;
+	top: -42px;
+}
+
+#hd-accueil {
+	height: 768px;
+	margin-bottom: 15px;
+}
+
+#hd-accueil #menu ul  {
+	color: white;
+	text-align: center;
+}
+
+#hd-accueil #menu ul li {
+	display: inline;
+}
+
+#hd-accueil #menu ul li a {
+	width: 122px;
+	height: 42px;
+	background-image: url(../images/tab-off2.png);
+	display: inline-block;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: navy;
+	font-size: 110%;
+}
+
+#hd-accueil #menu ul li a:hover {
+	background: url(../images/tab-on2.png) no-repeat;
+	color: #113879;
+}
+
+#hd-accueil div#banniere img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#hd-accueil div#banniere {
+	background-color: #8bb8ed;
+}
+
 div#hd div#hd_img {
 	float: left;
 }
@@ -153,6 +202,12 @@ div.yui-g h2 {
 	margin-bottom: 10px;
 	color: #46a8ed;
 	font-size: 116%;
+}
+
+div.yui-g h2.promo {
+	text-align: center;
+	color: #ff363f;
+	font-size: 150%;
 }
 
 div.yui-g p {
@@ -217,6 +272,8 @@ div.yui-b.sidebar {
 div.yui-b.sidebar h3 {
 	font-weight: bold;
 	margin-bottom: 10px;
+	font-size: 120%;
+	color: #00b700;
 }
 
 div.yui-b.sidebar p {
@@ -229,7 +286,8 @@ div.yui-g table.tarif {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	font-size: 93%;
+	font-weight: bold;
+	font-size: 90%;
 }
 
 div.yui-g table.tarif tr th {
@@ -251,16 +309,30 @@ div.yui-g table.tarif tr td {
 div.yui-g table.tarif tr td.prix-produit {
 	color: blue;
 	background-color: #fefdd2;
+	width: 13%;
+}
+
+div.yui-g table.tarif tr td.aide {
+	width: 13%;
 }
 
 div.yui-g table.tarif tr td.commande {
 	color: red;
 	background-color: #fefdd2;
+	width: 15%;
 }
 
 div.yui-g table.tarif tr td.prix-final {
 	color: teal;
 	background-color: #fefdd2;
+	width: 25%;
+}
+
+p.conditions {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	color: teal;
 }
 
 div.yui-g.accueil ul.pieces {
@@ -275,6 +347,13 @@ div.yui-g p.dossier span {
 
 div.yui-g.contacts {
 	font-size: 123%;
+	line-height: 25px;
+}
+
+div.yui-g span.produit {
+	color: #08b704;
+	font-weight: bold;
+	font-size: 150%;
 }
 
 div#annonces {

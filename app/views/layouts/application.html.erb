@@ -4,9 +4,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Controleur: <%= controller.action_name %></title>
+  <title>Citern + Gpe: <%= controller.action_name %></title>
   <%= stylesheet_link_tag 'reset-fonts-grids', 'base' %>
   <%= javascript_include_tag :defaults, :cache => true %>
+  <meta http-equiv="Author" name="Author" content="Gilles Mathurin" lang="fr">
+  <meta http-equiv="keywords" name="keywords" lang="fr" content="citernes, fosse septique, recupération d'eau de pluie, pluie, ecologie, guadeloupe, dom-tom, dom">
+  <meta http-equiv="Decription" name="Description" content="Citern+ Gpe est une société spécialisée dans la pose de citernes de récupération d'eau de pluie et dans l'installation de fosses septiques.">
 </head>
 <body>
     <div id="doc4" class="yui-t5">
@@ -16,9 +19,9 @@
         </div>
         <div id="hd">
             <div id="hd_img">
-                <%= image_tag("titre.png") %>
-                <p class="sous-titre">"L'eau est rare"</p>
-                <p class="slogan"><%= image_tag("accroche.gif") %></p>
+                <%# image_tag("titre.png") %>
+                <!-- <p class="sous-titre">"L'eau est rare"</p> -->
+                <!-- <p class="slogan"><%# image_tag("accroche.gif") %></p> -->
                 <%# image_tag("bg-bannieredroite.jpg") %>
             </div>
             <div id="animation">
@@ -33,7 +36,7 @@
             <div id="menu">
                 <ul>
                     <li><%= link_to "Accueil", "/" %></li>
-                    <li class="archi"><%= link_to "Dossier Architecture", dossier_archi_path %></li>
+                    <li><%= link_to "Présentation", presentation_path %></li>
                     <li><%= link_to "Tarifs", tarif_path %></li>
                     <li><%= link_to "Contacts", contact_path %></li>
                     <li></li>
@@ -56,11 +59,11 @@
         
         <div id="ft">
             <p>
-                <%= link_to "Accueil", "/" %> | <%= link_to "Dossier Architecture", dossier_archi_path %>
+                <%= link_to "Accueil", "/" %> | <%= link_to "Presentation", presentation_path %>
                 | <%= link_to "Tarifs", tarif_path %> | <%= link_to "Contacts", contact_path %>
             </p>
-            <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés<br/>
-            Tel/Fax : 0590 23 42 10<br/>
+            <p>Citern+ SARL- <%= Date.today.year %> - Tous droits réservés
+            Tel/Fax : 0590 23 42 10
             <%= mail_to "lek.sarl@wanadoo.fr", "Email", :encode => "hex" %></p>
 
             Conception : <%= link_to "GMWebAgency", "http://www.gmwebagency.com" %>
