@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.masquerannonce '/masquer_annonce', :controller => 'javascripts', :action => 'masquer_annonce'
+  
+  map.resources :annonces
+
   map.activate '/activate/:activation_code', :controller => 'users', :action => 'activate', :activation_code => nil
 
   map.logout '/logout', :controller => 'sessions', :action => 'destroy'

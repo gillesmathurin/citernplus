@@ -42,6 +42,13 @@
         </div>
         
         <div id="bd">
+						<div id="annonces">
+							<% for annonce in annonces_courantes %>
+								<p><%= h annonce.message %></p>
+							<% end %>
+							<p><%= link_to_remote "Masquer", :url => masquerannonce_url() %></p>
+						</div>
+						
             <%= yield %>
         </div>
         

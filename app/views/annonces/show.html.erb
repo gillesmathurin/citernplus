@@ -1,0 +1,18 @@
+<p>
+  <b>Message:</b>
+  <%=h @annonce.message %>
+</p>
+
+<p>
+  <b>Starts at:</b>
+  <%=h @annonce.starts_at %>
+</p>
+
+<p>
+  <b>Ends at:</b>
+  <%=h @annonce.ends_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_annonce_path(@annonce) %> |
+<%= link_to 'Back', annonces_path %>
