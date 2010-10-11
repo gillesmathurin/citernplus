@@ -1,4 +1,5 @@
 class ProduitsController < ApplicationController
+  before_filter :login_required
   # GET /produits
   # GET /produits.xml
   def index

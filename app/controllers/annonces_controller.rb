@@ -1,4 +1,5 @@
 class AnnoncesController < ApplicationController
+  before_filter :login_required
   # GET /annonces
   # GET /annonces.xml
   def index
