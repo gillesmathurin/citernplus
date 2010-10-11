@@ -358,8 +358,8 @@ div.yui-g span.produit {
 
 div#annonces {
 	font-size: 1.2em;
-	color: teal;
-	background-color: white;
+	color: yellow;
+	background-color: #335ba1;
 	display: block;
 	padding: 5px;
 	border: 2px solid yellow;
