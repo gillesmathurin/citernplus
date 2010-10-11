@@ -367,6 +367,11 @@ div#annonces {
 	width: 80%;
 	text-align: center;}
 
+div#annonces a {
+	color: white;
+	font-size: 0.8em;
+}
+
 
 
 /* @end */
