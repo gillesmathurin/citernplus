@@ -1,18 +1,42 @@
-<p>
-  <b>Message:</b>
-  <%=h @annonce.message %>
-</p>
+<div id="yui-main">
+	<div class="yui-b">
+		<div class="yui-g">
+			<p>
+			  <b>Message:</b>
+			  <%=h @annonce.message %>
+			</p>
 
-<p>
-  <b>Starts at:</b>
-  <%=h @annonce.starts_at %>
-</p>
+			<p>
+			  <b>Du:</b>
+			  <%=h @annonce.starts_at %>
+			</p>
 
-<p>
-  <b>Ends at:</b>
-  <%=h @annonce.ends_at %>
-</p>
+			<p>
+			  <b>Au:</b>
+			  <%=h @annonce.ends_at %>
+			</p>
 
 
-<%= link_to 'Edit', edit_annonce_path(@annonce) %> |
-<%= link_to 'Back', annonces_path %>
+			<%= link_to 'Modifier', edit_annonce_path(@annonce) %> |
+			<%= link_to 'Retour', annonces_path %>
+		</div>
+	</div>
+</div>
+
+<div class="yui-b sidebar">
+    <div class="yui-g">
+        <h3>Liens Externes</h3>
+        <p>
+            Votre publicité ici.
+        </p>
+        <p>
+            Votre publicité ici.
+        </p>
+        <p>
+            Votre publicité ici.
+        </p>
+        <p>
+            Votre publicité ici.
+        </p>
+    </div>
+</div>
